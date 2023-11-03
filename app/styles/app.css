@@ -21,8 +21,8 @@ div,
 span,
 a,
 button {
-  font-family: Lato, "Open Sans", "Helvetica Neue", "Segoe UI", Helvetica,
-    Arial, sans-serif;
+  font-family: Lato, "Open Sans", "Helvetica Neue", "Segoe UI", Helvetica, Arial,
+    sans-serif;
   line-height: 1.5;
 }
 
@@ -106,6 +106,10 @@ p {
   font-weight: bold;
 }
 
+.rental h3 a {
+  display: inline;
+}
+
 .menu a:hover,
 .menu a.active {
   opacity: 1;
@@ -160,6 +164,15 @@ p {
   opacity: 1;
 }
 
+.results {
+  margin-top: -10px;
+}
+
+.results li {
+  list-style: none;
+  padding: 10px 15px;
+}
+
 .menu .results {
   display: none;
   position: absolute;
@@ -169,15 +182,6 @@ p {
   background-color: #f6f6f6;
   border-right: 1px solid rgb(0 0 0 / 5%);
   border-bottom: 1px solid rgb(0 0 0 / 5%);
-}
-
-.results {
-  margin-top: -10px;
-}
-
-.results li {
-  list-style: none;
-  padding: 10px 15px;
 }
 
 .menu .results li:hover {
@@ -322,10 +326,6 @@ p {
 
 .rental h3 {
   flex-basis: 100%;
-}
-
-.rental h3 a {
-  display: inline;
 }
 
 .rental .detail {
